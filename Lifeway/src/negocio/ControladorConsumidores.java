@@ -24,7 +24,7 @@ public class ControladorConsumidores {
     }
 
     public List<Consumidor> listar() {
-        return repositorioConsumidores;
+        return repositorioConsumidores.listar();
     }
 
     public void remover(Consumidor obj) throws ObjetoNaoExisteException {
