@@ -35,4 +35,12 @@ public class Taxas {
     public void setTarifas(Map<String, Double> tarifas) {
         this.tarifas = tarifas;
     }
+   @Override
+    public String toString() {
+        String resultado = "";
+        resultado += "\n" + "Nome: " + this.();
+        resultado += "\n" + "Data de Nascimento: " + this.getDataNascimento().format(meuFormatador);
+        resultado += "\n" + "Identificação: " + this.getIdentificacao();
+        return resultado;
+    }
 }
