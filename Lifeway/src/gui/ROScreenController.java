@@ -116,7 +116,8 @@ public class ROScreenController implements Initializable {
                 complemento.clear();
                 pontoReferencia.clear();
                 alert.showAndWait();
-            }
+            }}
+            
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
