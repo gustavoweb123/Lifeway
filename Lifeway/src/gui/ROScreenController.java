@@ -116,7 +116,7 @@ public class ROScreenController implements Initializable {
                 complemento.clear();
                 pontoReferencia.clear();
                 alert.showAndWait();
-            }}
+                }}}}}}}
             
 
     @Override
